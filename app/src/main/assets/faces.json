@@ -1,0 +1,1420 @@
+{
+ "faces": [
+  {
+   "name": "Alexandria",
+   "display": "Alexandria",
+   "xml": "Alexandria.xml",
+   "thumb": "thumbs/alexandria.png",
+   "images": [
+    {
+     "key": "../Mauna Kea/moon25.png",
+     "file": "moon25-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "blueSun.png",
+     "file": "alex-blueSun.png",
+     "scale": 1.0
+    },
+    {
+     "key": "earthN.png",
+     "file": "alex-earthN-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "earthS.png",
+     "file": "alex-earthS-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "halfblueMoon.png",
+     "file": "alex-halfblueMoon.png",
+     "scale": 1.0
+    },
+    {
+     "key": "stars.png",
+     "file": "alex-stars-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "starsn.png",
+     "file": "alex-starsn-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "starss.png",
+     "file": "alex-starss-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Atlantis",
+   "display": "Atlantis",
+   "xml": "Atlantis.xml",
+   "thumb": "thumbs/atlantis.png",
+   "images": [
+    {
+     "key": "../partsBin/berry.png",
+     "file": "berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "logo-black-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "AtlantisIV",
+   "display": "Atlantis IV",
+   "xml": "AtlantisIV.xml",
+   "thumb": "thumbs/atlantisiv.png",
+   "images": [
+    {
+     "key": "../Chandra/stars.png",
+     "file": "chandra-stars-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/white-blackback.png",
+     "file": "atlantisiv-logoblackback-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "../partsBin/logos/white.png",
+     "file": "logo-white-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "polarGrey.png",
+     "file": "atlantisiv-polargrey-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {
+    "SIUnits": 1.0,
+    "altitude": 16.0,
+    "horizontalPositionError": 5.0,
+    "locationIndicatorAngle": 0.7853981633974483
+   },
+   "vars": {}
+  },
+  {
+   "name": "Babylon",
+   "display": "Babylon",
+   "xml": "Babylon.xml",
+   "thumb": "thumbs/babylon.png",
+   "images": [
+    {
+     "key": "../partsBin/HD/rose/face.png",
+     "file": "babylon-rose-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "babylon-berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "babylon-logo-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonES80.png",
+     "file": "babylon-moon-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonES80N.png",
+     "file": "babylon-moonn-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "back.png",
+     "file": "babylon-back-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "faceNight.png",
+     "file": "babylon-facenight-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Chandra",
+   "display": "Chandra",
+   "xml": "Chandra-ios.xml",
+   "thumb": "thumbs/chandra.png",
+   "images": [
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "logo-black-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/white.png",
+     "file": "logo-white-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonES.png",
+     "file": "moonES-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonESnight.png",
+     "file": "moonESnight-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "blueStar.png",
+     "file": "blueStar-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "face.png",
+     "file": "chandra-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "moon-farside.png",
+     "file": "moon-farside-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "phase1.png",
+     "file": "phase1-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "phase3.png",
+     "file": "phase3-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "phaseF.png",
+     "file": "phaseF.png",
+     "scale": 1.0
+    },
+    {
+     "key": "phaseN.png",
+     "file": "phaseN.png",
+     "scale": 1.0
+    },
+    {
+     "key": "redStar.png",
+     "file": "redStar-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "stars.png",
+     "file": "chandra-stars-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "ChandraII",
+   "display": "Chandra II",
+   "xml": "ChandraII.xml",
+   "thumb": "thumbs/chandraii.png",
+   "images": [
+    {
+     "key": "../Chandra/face.png",
+     "file": "chandra-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../Chandra/stars.png",
+     "file": "chandra-stars-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "chandraii-logo-black-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/white.png",
+     "file": "logo-white-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonES.png",
+     "file": "moonES-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonES72.png",
+     "file": "chandraii-moon72-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonESnight.png",
+     "file": "moonESnight-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "blueStar.png",
+     "file": "blueStar-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "face-white-trim.png",
+     "file": "chandraii-faceback-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "phase1.png",
+     "file": "chandraii-phase1.png",
+     "scale": 1.0
+    },
+    {
+     "key": "phase3.png",
+     "file": "chandraii-phase3.png",
+     "scale": 1.0
+    },
+    {
+     "key": "phaseF.png",
+     "file": "chandraii-phasef.png",
+     "scale": 1.0
+    },
+    {
+     "key": "phaseN.png",
+     "file": "chandraii-phasen.png",
+     "scale": 1.0
+    },
+    {
+     "key": "redStar.png",
+     "file": "redStar-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Firenze",
+   "display": "Firenze",
+   "xml": "Firenze.xml",
+   "thumb": "thumbs/firenze.png",
+   "images": [
+    {
+     "key": "../partsBin/logos/white.png",
+     "file": "firenze-logo-white-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/JupiterL.png",
+     "file": "firenze-n-jupiterl-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/SaturnL.png",
+     "file": "firenze-n-saturnl-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/bighalfMoon.png",
+     "file": "firenze-b-bighalfmoon-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/earthL.png",
+     "file": "firenze-n-earthl-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/earthN2.png",
+     "file": "firenze-n-earthn2-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/earthTransparent.png",
+     "file": "firenze-earth-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/jupiter.png",
+     "file": "firenze-b-jupiter-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/jupiterN2.png",
+     "file": "firenze-n-jupitern2-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/jupiterTransparent.png",
+     "file": "firenze-jupiter-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/mars.png",
+     "file": "firenze-b-mars-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/marsL.png",
+     "file": "firenze-n-marsl-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/marsN2.png",
+     "file": "firenze-n-marsn2-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/marsTransparent.png",
+     "file": "firenze-mars-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/mercury.png",
+     "file": "firenze-b-mercury-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/mercuryL.png",
+     "file": "firenze-n-mercuryl-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/mercuryN2.png",
+     "file": "firenze-n-mercuryn2-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/mercuryTransparent.png",
+     "file": "firenze-mercury-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/moonN.png",
+     "file": "firenze-n-moonn-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/moonTransparent.png",
+     "file": "firenze-moon-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/saturn.png",
+     "file": "firenze-b-saturn-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/saturnN2.png",
+     "file": "firenze-n-saturnn2-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/saturnTransparent.png",
+     "file": "firenze-saturn-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/venus.png",
+     "file": "firenze-b-venus-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/venusL.png",
+     "file": "firenze-n-venusl-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/venusN2.png",
+     "file": "firenze-n-venusn2-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/venusTransparent.png",
+     "file": "firenze-venus-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "face.png",
+     "file": "firenze-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "faceNight.png",
+     "file": "firenze-facenight-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "horizonMask.png",
+     "file": "firenze-horizonmask-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Geneva",
+   "display": "Geneva",
+   "xml": "Geneva-ios.xml",
+   "thumb": "thumbs/geneva.png",
+   "images": [
+    {
+     "key": "../Mauna Kea/moon25.png",
+     "file": "moon25-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonES80.png",
+     "file": "moonES80-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonNightcastAW80.png",
+     "file": "moonNightcastAW80-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "BCE-arrow.png",
+     "file": "geneva-bce-arrow.png",
+     "scale": 1.0
+    },
+    {
+     "key": "BCE.png",
+     "file": "geneva-bce.png",
+     "scale": 1.0
+    },
+    {
+     "key": "CE-arrow.png",
+     "file": "geneva-ce-arrow.png",
+     "scale": 1.0
+    },
+    {
+     "key": "CE.png",
+     "file": "geneva-ce.png",
+     "scale": 1.0
+    },
+    {
+     "key": "Node.png",
+     "file": "Node-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "YEAR.png",
+     "file": "geneva-year.png",
+     "scale": 1.0
+    },
+    {
+     "key": "dateRing.png",
+     "file": "dateRing-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "faceBack.png",
+     "file": "faceBack-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "faceFront.png",
+     "file": "faceFront-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "seasonrefs.png",
+     "file": "seasonrefs.png",
+     "scale": 1.0
+    },
+    {
+     "key": "seasons.png",
+     "file": "seasons-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "zodiac.png",
+     "file": "zodiac-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Haleakala",
+   "display": "Haleakala",
+   "xml": "Haleakala.xml",
+   "thumb": "thumbs/haleakala.png",
+   "images": [
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "haleakala-logo-black-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "Haleakala-back.png",
+     "file": "haleakala-back-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "Haleakala-face.png",
+     "file": "haleakala-face.png",
+     "scale": 1.0
+    },
+    {
+     "key": "pm-window-border-shadow.png",
+     "file": "haleakala-pm-winshadow.png",
+     "scale": 1.0
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Hernandez",
+   "display": "Hernandez",
+   "xml": "Hernandez.xml",
+   "thumb": "thumbs/hernandez.png",
+   "images": [
+    {
+     "key": "../Mauna Kea/moon25.png",
+     "file": "moon25-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/HD/white/faceNight.png",
+     "file": "hernandez-facenight-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "back.png",
+     "file": "hernandez-back-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "moon8.png",
+     "file": "hernandez-moon8.png",
+     "scale": 1.0
+    },
+    {
+     "key": "twilightDisk3.png",
+     "file": "hernandez-twilight.png",
+     "scale": 1.0
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Istanbul",
+   "display": "Istanbul",
+   "xml": "Istanbul.xml",
+   "thumb": "thumbs/istanbul.png",
+   "images": [
+    {
+     "key": "../partsBin/HD/rose/dial076.png",
+     "file": "istanbul-dial076-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/HD/rose/dial118.png",
+     "file": "istanbul-dial118-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/HD/rose/face.png",
+     "file": "istanbul-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/ampm2.png",
+     "file": "istanbul-ampm2-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "istanbul-logo-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "back.png",
+     "file": "istanbul-back-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {
+    "alarmTypeTarget": 0.0,
+    "alarmEnabled": 0.0,
+    "alarmRinging": 0.0,
+    "rings": 0.0,
+    "alarmManualSet": 0.0,
+    "alarmHour12ValueAngle": 0.0,
+    "alarmMinuteNumberAngle": 0.0,
+    "alarmHour24Number": 0.0,
+    "intervalHour24ValueAngle": 0.0,
+    "intervalMinuteValueAngle": 0.0
+   },
+   "vars": {}
+  },
+  {
+   "name": "Kyoto",
+   "display": "Kyoto",
+   "xml": "Kyoto.xml",
+   "thumb": "thumbs/kyoto.png",
+   "images": [
+    {
+     "key": "../McAlester/stem-n.png",
+     "file": "mcalester-stem-n-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "../McAlester/stem.png",
+     "file": "mcalester-stem-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry-lum.png",
+     "file": "kyoto-berry-lum-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry-shadow.png",
+     "file": "kyoto-berry-shadow.png",
+     "scale": 1.0
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "kyoto-berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "button-bottom.png",
+     "file": "kyoto-button-bottom.png",
+     "scale": 1.0
+    },
+    {
+     "key": "case15.png",
+     "file": "kyoto-case-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "case15b.png",
+     "file": "kyoto-caseb-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "case15n.png",
+     "file": "kyoto-casen.png",
+     "scale": 1.0
+    },
+    {
+     "key": "hand.png",
+     "file": "kyoto-hand-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "lumi-hand.png",
+     "file": "kyoto-lumihand-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "reset.png",
+     "file": "kyoto-reset.png",
+     "scale": 1.0
+    },
+    {
+     "key": "rose.png",
+     "file": "kyoto-rose.png",
+     "scale": 1.0
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "London",
+   "display": "London",
+   "xml": "London.xml",
+   "thumb": "thumbs/london.png",
+   "images": [
+    {
+     "key": "band-night.png",
+     "file": "london-band-night.png",
+     "scale": 1.0
+    },
+    {
+     "key": "band.png",
+     "file": "london-band.png",
+     "scale": 1.0
+    },
+    {
+     "key": "bbfaceplus.png",
+     "file": "london-bbfaceplus.png",
+     "scale": 1.0
+    },
+    {
+     "key": "bbfaceplusback.png",
+     "file": "london-bbfaceplusback.png",
+     "scale": 1.0
+    },
+    {
+     "key": "bbfaceplusnight.png",
+     "file": "london-bbfaceplusnight.png",
+     "scale": 1.0
+    },
+    {
+     "key": "bbhour.png",
+     "file": "london-bbhour.png",
+     "scale": 1.0
+    },
+    {
+     "key": "bbminute.png",
+     "file": "london-bbminute.png",
+     "scale": 1.0
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "MaunaKea",
+   "display": "Mauna Kea",
+   "xml": "MaunaKea.xml",
+   "thumb": "thumbs/maunakea.png",
+   "images": [
+    {
+     "key": "../partsBin/berry-green.png",
+     "file": "maunakea-berry-green-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonES80.png",
+     "file": "maunakea-moones80-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "CMa.png",
+     "file": "maunakea-cma.png",
+     "scale": 1.0
+    },
+    {
+     "key": "EOT.png",
+     "file": "maunakea-eot-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "astro-face.png",
+     "file": "maunakea-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "eveningHD.png",
+     "file": "maunakea-evening-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "moon25.png",
+     "file": "maunakea-moon25-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "moon25black.png",
+     "file": "maunakea-moon25black-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "moon25f.png",
+     "file": "maunakea-moon25f-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "morningHD.png",
+     "file": "maunakea-morning-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "stars.png",
+     "file": "maunakea-stars.png",
+     "scale": 1.0
+    },
+    {
+     "key": "zodiacWheel.png",
+     "file": "maunakea-zodiac-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "zodiacWheelN.png",
+     "file": "maunakea-zodiacn-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "McAlester",
+   "display": "McAlester",
+   "xml": "McAlester.xml",
+   "thumb": "thumbs/mcalester.png",
+   "images": [
+    {
+     "key": "case.png",
+     "file": "mcalester-case-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "cover.png",
+     "file": "mcalester-cover-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "face-night.png",
+     "file": "mcalester-face-night-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "face.png",
+     "file": "mcalester-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "hour-lum.png",
+     "file": "mcalester-hour-lum-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "hour.png",
+     "file": "mcalester-hour-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "minute-lum.png",
+     "file": "mcalester-minute-lum-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "minute.png",
+     "file": "mcalester-minute-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "resetH.png",
+     "file": "mcalester-reseth-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "second.png",
+     "file": "mcalester-second-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "stem-n.png",
+     "file": "mcalester-stem-n-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "stem.png",
+     "file": "mcalester-stem-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Miami",
+   "display": "Miami",
+   "xml": "Miami.xml",
+   "thumb": "thumbs/miami.png",
+   "images": [
+    {
+     "key": "../partsBin/HD/white/face.png",
+     "file": "miami-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "miami-logo-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/bighalfMoon.png",
+     "file": "miami-icon-bighalfMoon-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/jupiter.png",
+     "file": "miami-icon-jupiter-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/mars.png",
+     "file": "miami-icon-mars-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/mercury.png",
+     "file": "miami-icon-mercury-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/planets/saturnb.png",
+     "file": "miami-icon-saturnb-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "../partsBin/planets/venus.png",
+     "file": "miami-icon-venus-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "JupiterLabel.png",
+     "file": "miami-jupiterlabel-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "MarsLabel.png",
+     "file": "miami-marslabel-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "MercuryLabel.png",
+     "file": "miami-mercurylabel-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "MoonLabel.png",
+     "file": "miami-moonlabel-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "SaturnLabel.png",
+     "file": "miami-saturnlabel-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "SunLabel.png",
+     "file": "miami-sunlabel-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "VenusLabel.png",
+     "file": "miami-venuslabel-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {
+    "body": 7.0
+   }
+  },
+  {
+   "name": "Milano",
+   "display": "Milano",
+   "xml": "Milano.xml",
+   "thumb": "thumbs/milano.png",
+   "images": [
+    {
+     "key": "../partsBin/berry-lum.png",
+     "file": "milano-berry-lum-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "milano-berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berryWhite.png",
+     "file": "milano-berrywhite-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/case12back.png",
+     "file": "milano-case12back-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "mask.png",
+     "file": "milano-mask.png",
+     "scale": 1.0
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Neuchatel",
+   "display": "Neuchatel",
+   "xml": "Neuchatel.xml",
+   "thumb": "thumbs/neuchatel.png",
+   "images": [
+    {
+     "key": "../partsBin/berry-lum.png",
+     "file": "neuchatel-berry-lum-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/curved.png",
+     "file": "neuchatel-curved-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "back.png",
+     "file": "neuchatel-back-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "notSwiss.png",
+     "file": "neuchatel-notswiss-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "numbers4.png",
+     "file": "neuchatel-numbers4-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Olympia",
+   "display": "Olympia",
+   "xml": "Olympia.xml",
+   "thumb": "thumbs/olympia.png",
+   "images": [
+    {
+     "key": "../partsBin/logos/white.png",
+     "file": "logo-white-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {
+    "stopwatchSecondValue": 0.0,
+    "stopwatchMinuteValue": 0.0,
+    "stopwatchHour24Value": 0.0,
+    "stopwatchDayValue": 0.0,
+    "stopwatchLapSecondValue": 0.0,
+    "stopwatchLapMinuteValue": 0.0,
+    "stopwatchLapHour24Value": 0.0,
+    "stopwatchLapDayValue": 0.0,
+    "stopwatchRattrapanteValid": 0.0
+   },
+   "vars": {}
+  },
+  {
+   "name": "Paris",
+   "display": "Paris",
+   "xml": "Paris.xml",
+   "thumb": "thumbs/paris.png",
+   "images": [
+    {
+     "key": "../partsBin/berry-lum.png",
+     "file": "paris-berry-lum-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry-shadow.png",
+     "file": "paris-berry-shadow.png",
+     "scale": 1.0
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "paris-berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "back.png",
+     "file": "paris-back-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Terra",
+   "display": "Terra",
+   "xml": "Terra.xml",
+   "thumb": "thumbs/terra.png",
+   "images": [
+    {
+     "key": "../partsBin/HD/rose/dial104.png",
+     "file": "terra-dial104-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/HD/rose/dial158.png",
+     "file": "terra-dial158-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/HD/rose/face.png",
+     "file": "terra-face.png",
+     "scale": 1.0
+    },
+    {
+     "key": "../partsBin/HD/rose/faceNight.png",
+     "file": "terra-facenight.png",
+     "scale": 1.0
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "terra-berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "terra-logo-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/moonES28.png",
+     "file": "terra-moon28-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "continents.png",
+     "file": "terra-continents-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "continentsN.png",
+     "file": "terra-continentsn-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "holeyLatLongGrid.png",
+     "file": "terra-grid-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "worldtimeRingBackground.png",
+     "file": "terra-ring-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Thebes",
+   "display": "Thebes",
+   "xml": "Thebes.xml",
+   "thumb": "thumbs/thebes.png",
+   "images": [
+    {
+     "key": "../partsBin/HD/white/dial076.png",
+     "file": "thebes-dial076-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/HD/white/face.png",
+     "file": "thebes-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "thebes-berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "thebes-logo-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "back.png",
+     "file": "thebes-back-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {
+    "alarmTypeInterval": 0.0,
+    "alarmEnabled": 0.0,
+    "alarmRinging": 0.0,
+    "rings": 0.0,
+    "alarmIsZero": 1.0,
+    "alarmHour24Number": 0.0,
+    "alarmHour12ValueAngle": 0.0,
+    "alarmMinuteValueAngle": 0.0,
+    "alarmSecondValueAngle": 0.0,
+    "intervalHour24ValueAngle": 0.0,
+    "intervalMinuteValueAngle": 0.0,
+    "intervalSecondValueAngle": 0.0
+   },
+   "vars": {}
+  },
+  {
+   "name": "Tombstone",
+   "display": "Tombstone",
+   "xml": "Tombstone.xml",
+   "thumb": "thumbs/tombstone.png",
+   "images": [
+    {
+     "key": "../Kyoto/reset.png",
+     "file": "kyoto-reset.png",
+     "scale": 1.0
+    },
+    {
+     "key": "../partsBin/berry-lum.png",
+     "file": "tombstone-berrylum-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "tombstone-berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "back.png",
+     "file": "tombstone-back-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "blender.png",
+     "file": "tombstone-blender-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "blenderk.png",
+     "file": "tombstone-blenderk-2x.png",
+     "scale": 0.5
+    },
+    {
+     "key": "case19.png",
+     "file": "tombstone-case19.png",
+     "scale": 1.0
+    },
+    {
+     "key": "case19n.png",
+     "file": "tombstone-case19n.png",
+     "scale": 1.0
+    },
+    {
+     "key": "escWheel.png",
+     "file": "tombstone-escwheel.png",
+     "scale": 1.0
+    },
+    {
+     "key": "escWheelf.png",
+     "file": "tombstone-escwheelf.png",
+     "scale": 1.0
+    },
+    {
+     "key": "escapeLever.png",
+     "file": "tombstone-esclever.png",
+     "scale": 1.0
+    },
+    {
+     "key": "escapeLevern.png",
+     "file": "tombstone-esclevern.png",
+     "scale": 1.0
+    },
+    {
+     "key": "guts18front.png",
+     "file": "tombstone-guts.png",
+     "scale": 1.0
+    },
+    {
+     "key": "stem19.png",
+     "file": "tombstone-stem19.png",
+     "scale": 1.0
+    },
+    {
+     "key": "stem19n.png",
+     "file": "tombstone-stem19n.png",
+     "scale": 1.0
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Uraniborg",
+   "display": "Uraniborg",
+   "xml": "Uraniborg.xml",
+   "thumb": "thumbs/uraniborg.png",
+   "images": [
+    {
+     "key": "../Mauna Kea/moon25.png",
+     "file": "uraniborg-moon25-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/HD/white/face.png",
+     "file": "uraniborg-face-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry-lum.png",
+     "file": "uraniborg-berry-lum-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/berry-shadow.png",
+     "file": "uraniborg-berry-shadow.png",
+     "scale": 1.0
+    },
+    {
+     "key": "../partsBin/berry.png",
+     "file": "uraniborg-berry-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "uraniborg-logo-black-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "zodiacNames.png",
+     "file": "uraniborg-zodiac-2x.png",
+     "scale": 0.5
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  },
+  {
+   "name": "Vienna",
+   "display": "Vienna",
+   "xml": "Vienna.xml",
+   "thumb": "thumbs/vienna.png",
+   "images": [
+    {
+     "key": "../partsBin/logos/black.png",
+     "file": "vienna-logo-4x.png",
+     "scale": 0.25
+    },
+    {
+     "key": "blanker.png",
+     "file": "vienna-blanker.png",
+     "scale": 1.0
+    },
+    {
+     "key": "face.png",
+     "file": "vienna-face-4x.png",
+     "scale": 0.25
+    }
+   ],
+   "stubs": {},
+   "vars": {}
+  }
+ ]
+}
