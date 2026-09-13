@@ -10,6 +10,15 @@ display's refresh rate, faces that flip and slide like the iPhone's, and the sam
 alarms, chronograph and hand-dragging interactions, all rendered from the original face
 definitions and artwork.
 
+| Tombstone | Geneva | Terra |
+|:---:|:---:|:---:|
+| ![Tombstone](screenshots/tombstone.png) | ![Geneva](screenshots/geneva.png) | ![Terra](screenshots/terra.png) |
+| **Chandra, night** | **Firenze** | **Geneva, back** |
+| ![Chandra night](screenshots/chandra-night.png) | ![Firenze](screenshots/firenze.png) | ![Geneva back](screenshots/geneva-back.png) |
+
+*Rendered by the engine's test harness at the iPhone's 320×480 layout, which is exactly what
+the app draws on a phone.*
+
 ## What is in the box
 
 All 25 approved faces, each with its front, night and back side:

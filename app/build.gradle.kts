@@ -25,7 +25,7 @@ android {
         minSdk = 29          // BlendMode (difference/luminosity) needs API 29
         targetSdk = 35
         versionCode = 1
-        versionName = "0.1"
+        versionName = "0.1.0"
     }
 
     // Release signing: reads keystore.properties (git-ignored, see keystore.properties.example).
