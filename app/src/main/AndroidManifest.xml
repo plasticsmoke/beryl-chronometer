@@ -4,8 +4,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-    <!-- Icon is EC-Icon-1024.png from the upstream Chronometer/products/Chronometer
-         (MIT, Emerald Sequoia LLC), see res/mipmap-*. -->
+    <!-- Icon: a crop of this engine's own Tombstone front render (res/mipmap-*, the adaptive
+         foreground in res/drawable-xxxhdpi), in the spirit of the original's cropped-dial icon. -->
     <application
         android:label="Beryl Chronometer"
         android:icon="@mipmap/ic_launcher"

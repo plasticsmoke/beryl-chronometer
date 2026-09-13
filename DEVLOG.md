@@ -626,3 +626,22 @@ region moves.
 Face-name labels during slides: each page carries its name at the top with an arrow on its
 outer side ("‹ Babylon" | "Chandra ›"), the landed face's name lingers ~1.2 s after the settle,
 then fades over ~450 ms; any new drag brings the labels straight back.
+
+## 2026-09-13 — Beryl Chronometer: public baseline
+
+Re-baselined the project for publication as **Beryl Chronometer** (beryl being the mineral
+emerald is a variety of), in a fresh repository with no history, so the name is clearly
+distinct from Emerald Sequoia's product while the README and NOTICE attribute the origin.
+
+- Package `com.plasticsmoke.beryl`, launcher label "Beryl Chronometer", log tag `Beryl`.
+- MIT license with the upstream Emerald Sequoia notice; NOTICE.md and `licenses/` carry the
+  font licenses (Liberation and PT Sans under OFL 1.1, the DejaVu subset under Bitstream Vera).
+- `docs/` (previews, screenshots, recordings) is no longer committed; README rewritten;
+  ARCHITECTURE.md holds the design and every fidelity note that used to live in memory.
+- **App icon**: the original was a cropped photo of a dial. Beryl's is the same idea from its
+  own engine — a crop of the Tombstone front render (bezel edge, XI/XII, the hour hand over
+  the gears), with a wider crop for the adaptive foreground so launcher masks show the same
+  region. Background color is the granite tone.
+- **Release signing**: `keystore.properties` (git-ignored) points at a dedicated release
+  keystore; without it, release builds fall back to the debug key so anyone can build.
+  Published APKs must always come from the same key or Android refuses the update.

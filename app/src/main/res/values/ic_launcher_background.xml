@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Dark leather tone sampled from the EC-Icon artwork edge, for launchers whose
-         mask reveals a sliver beyond the 72dp safe-zone square. -->
-    <color name="ic_launcher_background">#14100C</color>
+    <!-- Granite tone sampled from the wallpaper, for launcher masks that reveal a sliver
+         beyond the foreground's safe zone. -->
+    <color name="ic_launcher_background">#2C2F2A</color>
 </resources>

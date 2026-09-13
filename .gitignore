@@ -17,3 +17,8 @@ Thumbs.db
 docs/
 *.mp4
 *.PNG
+
+# Release signing (never commit)
+keystore.properties
+*.jks
+*.keystore

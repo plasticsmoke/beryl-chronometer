@@ -97,9 +97,12 @@ Build and install the app:
 adb install -r app/build/outputs/apk/release/app-release.apk
 ```
 
-Install the **release** build on a device. It is debug-signed so it side-loads without a
-keystore, but unlike the debug build it runs fully optimized. A debuggable APK renders roughly
-ten times slower on this code and looks like an app-wide regression.
+Install the **release** build on a device. Unlike the debug build it runs fully optimized; a
+debuggable APK renders roughly ten times slower on this code and looks like an app-wide
+regression. Without a `keystore.properties` file the release build is signed with the debug
+key, which is fine for your own device. To sign with your own key, copy
+`keystore.properties.example` to `keystore.properties` and point it at your keystore; the
+published APKs on the Releases page are all signed with one key so they update over each other.
 
 The render tests write full phone-frame previews of every face and mode to `engine/build/`.
 `tools/refresh-previews.py` copies them into a git-ignored `docs/` directory, and any
@@ -171,7 +174,7 @@ The long version, with the iOS source references, is in
 
 ## License
 
-MIT. See [LICENSE](LICENSE). The watch-face definitions, artwork, help pages, alarm sound and
-icon are copyright Emerald Sequoia LLC and redistributed under their MIT license; the bundled
+MIT. See [LICENSE](LICENSE). The watch-face definitions, artwork, help pages and alarm sound
+are copyright Emerald Sequoia LLC and redistributed under their MIT license; the bundled
 fonts are under the SIL Open Font License and the Bitstream Vera license. Full details in
 [NOTICE.md](NOTICE.md).

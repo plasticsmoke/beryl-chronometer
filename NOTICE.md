@@ -11,14 +11,14 @@ Source: <https://github.com/EmeraldSequoia/Chronometer> and
 <https://github.com/EmeraldSequoia/chronometer-web>.
 License text: `licenses/EmeraldSequoia-Chronometer-MIT.txt`.
 
-Reused verbatim or with minimal staging edits:
+Reused verbatim or with minimal staging edits (the app icon is a crop of this engine's
+Tombstone render, so it derives from the Tombstone artwork below):
 
 - Watch-face definitions (`engine/src/test/resources/*.xml`) and their artwork
   (`engine/src/test/resources/*.png`), including the partsBin case, band, button and
   wallpaper art.
 - The per-face help pages (`app/src/main/assets/help/`).
 - The alarm sound `Triangle.wav` (`app/src/main/res/raw/triangle.wav`).
-- The application icon (`app/src/main/res/mipmap-*`).
 - The face thumbnails (`app/src/main/assets/thumbs/`), rendered by this engine from the
   face definitions above.
 
