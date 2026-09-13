@@ -7,7 +7,7 @@
     <!-- Icon: a crop of this engine's own Tombstone front render (res/mipmap-*, the adaptive
          foreground in res/drawable-xxxhdpi), in the spirit of the original's cropped-dial icon. -->
     <application
-        android:label="Beryl Chronometer"
+        android:label="Beryl Chrono"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@android:style/Theme.Material.NoActionBar.Fullscreen"
