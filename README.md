@@ -83,6 +83,33 @@ Objective-C++ source. Where the two differ, the iOS code wins. The full design, 
 verification approach and every workaround are in [ARCHITECTURE.md](ARCHITECTURE.md); the
 chronological story is in [DEVLOG.md](DEVLOG.md).
 
+## Installing
+
+Beryl is distributed as an APK on the
+[Releases](https://github.com/plasticsmoke/beryl-chronometer/releases) page. It needs
+Android 10 or newer. It is not on the Play Store.
+
+**Recommended: Obtainium.** [Obtainium](https://github.com/ImranR98/Obtainium) installs apps
+straight from their GitHub releases and notifies you when a new version is out.
+
+1. Install Obtainium (from its own releases page or from F-Droid).
+2. In Obtainium tap **Add App** and paste this repository's URL:
+   `https://github.com/plasticsmoke/beryl-chronometer`
+3. Tap **Add**. Obtainium finds the latest release, downloads the APK and hands it to Android's
+   installer. The first time, Android asks you to allow installs from Obtainium.
+4. From then on, new releases appear in Obtainium's update list and install over the existing
+   app, keeping your face settings, alarms and time-warp state.
+
+**Manual install.** Download `beryl-chronometer-<version>.apk` from the latest release, open
+it on the phone, and allow the install when the browser or file manager asks. Later versions
+install over earlier ones the same way, as long as you download from this repository: every
+release is signed with the same key, and Android only accepts an update signed with the key of
+the installed app.
+
+**Permissions.** Location is optional. With it granted, the astronomical faces use your position
+for sunrise, moonrise, the sky views and the world-time ring. Without it they use San Francisco.
+The app makes no network requests.
+
 ## Building
 
 Requirements: JDK 17 or newer, the Android SDK with platform 35 and build-tools 35, and
