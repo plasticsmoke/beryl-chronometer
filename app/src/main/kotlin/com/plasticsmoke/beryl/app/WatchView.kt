@@ -28,6 +28,10 @@ import com.plasticsmoke.beryl.watch.WheelPart
 import kotlin.math.abs
 import kotlin.math.min
 
+/** iOS Background/dim.png: black at alpha 0x80, laid over the granite (and the status lights
+ *  drawn before it in Background.xml) in night mode. */
+internal const val NIGHT_DIM_COLOR = 0x80000000.toInt()
+
 /**
  * Renders the current watch face over the granite wallpaper on the iOS logical 320×480 screen,
  * scaled to fit the view. Dragging horizontally slides between faces like the iPhone: the
@@ -1444,6 +1448,17 @@ class WatchView(
         resetPeeks()   // peek bitmaps are sized to the view — re-render both at the new size
     }
 
+    /** iOS Background.xml 'dim' part (modes='night', dim.png = 3×3 black @ alpha 0x80, stretched
+     *  full-screen by ECPartController isDimPart): night mode darkens the granite ~50%. It's a
+     *  BACKGROUND-watch part, drawn before the faces, so it dims the wallpaper and slide gaps but
+     *  never a face. Set by MainActivity.applyMode, which runs on every mode change + face switch. */
+    var nightDim = false
+        set(value) {
+            if (field == value) return
+            field = value
+            invalidate()
+        }
+
     /** The stationary base layer: granite scaled to the view (built once per size, UI thread). */
     private fun drawWallpaper(canvas: Canvas) {
         val wp = wallpaper
@@ -1455,6 +1470,7 @@ class WatchView(
             ?: Bitmap.createScaledBitmap(wp, width, height, true)
                 .also { it.density = Bitmap.DENSITY_NONE; scaledWallpaper = it }
         canvas.drawBitmap(scaled, 0f, 0f, null)
+        if (nightDim) canvas.drawColor(NIGHT_DIM_COLOR)
     }
 
     /** The best available bitmap for face [idx] right now: the live main buffer if it holds that

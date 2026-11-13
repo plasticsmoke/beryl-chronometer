@@ -53,6 +53,9 @@ class MainActivity : Activity() {
     private lateinit var timeDot: View
     private lateinit var locDot: View
     private lateinit var alarmDot: View
+    private val nightDimPaint = Paint().apply {
+        colorFilter = android.graphics.PorterDuffColorFilter(NIGHT_DIM_COLOR, android.graphics.PorterDuff.Mode.SRC_ATOP)
+    }
     private lateinit var timeText: TextView
     private lateinit var locText: TextView
     private lateinit var alarmText: TextView
@@ -166,6 +169,7 @@ class MainActivity : Activity() {
         root.addView(timeText, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.START).apply { leftMargin = dp(14); topMargin = topM + dp(14) })
         root.addView(alarmText, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.START).apply { leftMargin = dp(14); topMargin = topM + dp(48) })
         root.addView(locText, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.END).apply { rightMargin = dp(14); topMargin = topM + dp(14) })
+        applyNightDim()   // a face restored in night mode before the dots existed
         watchView.onEmptyTap = {
             updateIndicators()
             for (t in listOf(timeText, locText, alarmText)) t.animate().alpha(1f).setDuration(330).start()
@@ -278,9 +282,23 @@ class MainActivity : Activity() {
         // Night mode dims the corner chrome (iOS swaps every corner button to dim n*-png art —
         // Background.xml nday/ngrid/ninfo/… — preserving dark adaptation).
         val base = if (lightsOn) NIGHT_TINT else BUTTON_TINT
+        applyNightDim()
         for (b in fanButtons) b.setTextColor(base)
         lightsButton.setTextColor(if (lightsOn) NIGHT_ACTIVE_TINT else BUTTON_TINT)
         flipButton.setTextColor(if (flipped) ACTIVE_TINT else base)
+    }
+
+    /** iOS Background.xml 'dim' (modes='night'): ~50% black over the granite and over the
+     *  status lights/alarm glyph, which precede it in the XML draw order. A layer paint with a
+     *  SRC_ATOP black filter darkens exactly the dots' own pixels, like the overlay does. */
+    private fun applyNightDim() {
+        val night = lightsOn && !flipped
+        watchView.nightDim = night
+        if (!::timeDot.isInitialized) return   // re-applied once the dots exist
+        for (v in listOf(timeDot, locDot, alarmDot)) {
+            if (night) v.setLayerType(View.LAYER_TYPE_HARDWARE, nightDimPaint)
+            else v.setLayerType(View.LAYER_TYPE_NONE, null)
+        }
     }
 
     // --- info (per-face help HTML) ---

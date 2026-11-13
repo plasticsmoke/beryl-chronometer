@@ -43,8 +43,18 @@ object PhoneFrame {
         return out
     }
 
-    /** Render [watch] over the wallpaper at full phone frame and write `build/<outName>.png`. */
-    fun render(watch: Watch, env: Environment, images: Map<String, LoadedImage>, outName: String): BufferedImage {
+    /**
+     * Render [watch] over the wallpaper at full phone frame and write `build/<outName>.png`.
+     * [night] lays the iOS Background.xml 'dim' part (dim.png: black @ alpha 0x80, modes='night')
+     * over the granite before the face, as the app does; every night render is named `*-night`.
+     */
+    fun render(
+        watch: Watch,
+        env: Environment,
+        images: Map<String, LoadedImage>,
+        outName: String,
+        night: Boolean = outName.endsWith("-night"),
+    ): BufferedImage {
         val w = (SCREEN_W * SCALE).roundToInt()
         val h = (SCREEN_H * SCALE).roundToInt()
         val out = BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB)
@@ -55,6 +65,10 @@ object PhoneFrame {
             val at = AffineTransform()
             at.scale(w.toDouble() / wp.width, h.toDouble() / wp.height)
             g.drawImage(wp, at, null)
+        }
+        if (night) {
+            g.color = java.awt.Color(0, 0, 0, 0x80)
+            g.fillRect(0, 0, w, h)
         }
         renderFrame(AwtDrawingContext(g, w, h), watch, env, SCALE, w, h, images)
         g.dispose()

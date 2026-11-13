@@ -645,3 +645,19 @@ distinct from Emerald Sequoia's product while the README and NOTICE attribute th
 - **Release signing**: `keystore.properties` (git-ignored) points at a dedicated release
   keystore; without it, release builds fall back to the debug key so anyone can build.
   Published APKs must always come from the same key or Android refuses the update.
+
+## 2026-11-13 — 0.1.2: night mode dims the background
+
+On the iPhone the wallpaper is itself a pseudo-watch (`Background.xml`) that follows the
+current face into night mode, and it has one night-only part, `dim`: a 3×3 `dim.png` of black at
+alpha 0x80 that the iOS code stretches to the full screen (`ECPartController` special-cases the
+part name). It is drawn before the faces, so it darkens the granite and the gap between faces
+during a slide by about half, plus the status lights that come before it in the XML. The
+corner buttons come after it and have their own dim night art.
+
+- `WatchView.nightDim` lays the same 50% black over the granite before compositing the faces;
+  `MainActivity.applyNightDim()` sets it from `applyMode()`, so it follows night toggles and
+  each face's persisted mode on every switch, and darkens the time/location/alarm indicators
+  with a SRC_ATOP layer filter.
+- The test harness (`PhoneFrame.render`) applies the dim to every `*-night` render, so previews
+  match the device; the README's Chandra night screenshot is regenerated from it.
